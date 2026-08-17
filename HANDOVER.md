@@ -29,9 +29,20 @@
 
 ## 2. 部署清单(Deployment Checklist)
 
-1. 将全部文件原样上传至托管平台(推荐 Cloudflare Pages / GitHub Pages / 任意静态托管)。
-2. 域名解析指向托管平台后,站点即可访问。
-3. 站点为纯静态,无需服务器、数据库或环境变量。
+**当前状态**:代码已推送至 GitHub 仓库 [honansafe/honansafe-website](https://github.com/honansafe/honansafe-website)(public, main 分支, 2026-08-17)。
+
+1. 代码仓库:https://github.com/honansafe/honansafe-website
+2. Cloudflare Pages 连接该仓库部署(见下方 2.1 手动步骤)。
+3. 站点为纯静态,无需服务器、数据库或环境变量,构建命令留空即可。
+
+### 2.1 Cloudflare Pages 手动部署步骤(需在 Cloudflare Dashboard 操作)
+
+1. 登录 https://dash.cloudflare.com → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**。
+2. 授权 Cloudflare 访问 GitHub(选 honansafe 账号)→ 选择仓库 **honansafe-website** → **Begin setup**。
+3. 构建设置:Framework preset 选 **None**;Build command 留空;Build output directory 填 `/` → **Save and Deploy**。
+4. 部署完成后,在 Pages 项目 → **Custom domains** → 绑定 **honansafe.com** 与 **www.honansafe.com**。
+5. 将域名 **honansafe.com** 的 DNS 托管到 Cloudflare(添加站点后按提示将注册商 NS 改为 Cloudflare 的两个 NS)。域名入 Cloudflare 后绑定自定义域名会自动创建 CNAME。
+6. 后续推送 main 分支会自动重新部署。
 
 ## 3. DNS 清单(DNS Checklist)
 
@@ -73,6 +84,7 @@
 | 日期 | 版本 | 变更 |
 |---|---|---|
 | 2026-08-17 | v1.0.0 | 初始建站:12 页面、设计系统、SEO 资产、询盘表单、占位内容标注 |
+| 2026-08-17 | v1.0.0 | 代码推送至 GitHub(honansafe/honansafe-website, main 分支);Cloudflare Pages 待 Dashboard 手动连接 |
 
 ## 7. 待用户补充的内容(Placeholders)
 
