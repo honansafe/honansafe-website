@@ -29,11 +29,14 @@
 
 ## 2. 部署清单(Deployment Checklist)
 
-**当前状态**:代码已推送至 GitHub 仓库 [honansafe/honansafe-website](https://github.com/honansafe/honansafe-website)(public, main 分支, 2026-08-17)。
+**当前状态**:已上线 ✅(2026-08-17,全部验证通过)
 
-1. 代码仓库:https://github.com/honansafe/honansafe-website
-2. Cloudflare Pages 连接该仓库部署(见下方 2.1 手动步骤)。
-3. 站点为纯静态,无需服务器、数据库或环境变量,构建命令留空即可。
+- **正式域名**:https://honansafe.com(HTTP 200 验证通过,www.honansafe.com 同样生效)
+- **Cloudflare Pages 域名**:https://honansafe-website.pages.dev
+- **代码仓库**:https://github.com/honansafe/honansafe-website(public, main 分支)
+- **部署配置**:Cloudflare Pages 项目 honansafe-website,Git 集成,GitHub 推送 main 自动重新部署;构建输出目录已修正为 `/`(原为 dist 导致空部署,已修复)
+- **DNS**:honansafe.com 已托管 Cloudflare(NS: alexa/leonidas.ns.cloudflare.com),CNAME 已配置
+- 站点为纯静态,无需服务器、数据库或环境变量。
 
 ### 2.1 Cloudflare Pages 手动部署步骤(需在 Cloudflare Dashboard 操作)
 
