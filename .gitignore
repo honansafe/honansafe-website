@@ -1,0 +1,9 @@
+# Temp / build artifacts — not part of the site
+_make_logo.py
+_replace_logo.py
+_logo_p*.png
+_user-screenshot.jpg
+image_analysis.png
+shots/
+analyze_*.js
+qa-check.js
