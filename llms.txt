@@ -1,34 +1,56 @@
-# HonanSafe — HongAn Fire Equipment Co., Ltd.
+# HonanSafe — Hong'an Fire Fighting Equipment Co., Ltd.
 
-> HongAn Fire Equipment Co., Ltd. is a direct factory manufacturer and exporter of fire protection equipment.
-> We serve engineering contractors and distributors in Southeast Asia, the Middle East and South America with
-> OEM/ODM customisation and complete project package supply.
+> Hong'an Fire Fighting Equipment Co., Ltd. is a direct factory manufacturer and exporter of fire protection equipment,
+> founded in 2003 in Nan'an, Fujian, China. We operate three production bases covering 35,000+ m² with 500+ product
+> specifications across nine product series and 100+ national patents. We serve engineering contractors and distributors
+> in Southeast Asia, the Middle East and South America with OEM/ODM customisation and complete project package supply.
 
 ## Company
 
-- Legal name: HongAn Fire Equipment Co., Ltd. (鸿安消防设备有限公司)
+- Legal name: Hong'an Fire Fighting Equipment Co., Ltd. (鸿安消防设备有限公司)
 - Brand / domain: HonanSafe — https://honansafe.com/
+- Founded: 2003
+- Production: 3 production bases, 35,000+ m² production area
+- Range: 500+ specifications, 9 product series, 100+ national patents
+- Track record: 500+ projects delivered across 30+ provinces in China
+- Factory address: No. 29 Lujiang Industrial Road, Lujiang Village, Liucheng Street, Nan'an City, Quanzhou, Fujian, China
 - Sales email: zwanl@hongan119.com
 - Backup email: haffthuang@hongan119.com
-- WhatsApp: +86 152 5942 8489
-- Key markets: Southeast Asia, Middle East, South America
+- WhatsApp: +86 152 5942 8489 / +86 159 0596 0109
+- Telephone: +86 595 8631 0468 · Fax: +86 595 8631 3685
+- Alibaba store: https://honganfire.en.alibaba.com
+- Key markets: Southeast Asia (incl. Vietnam), Middle East, South America
+
+## Certifications held by the factory
+
+- ISO 9001 quality management system (No. 04324Q30857R0S, valid to 14 Apr 2027)
+- ISO 14001 environmental management system (No. 04324E30685R0S)
+- ISO 45001 occupational health and safety (No. 04324S40639R0S)
+- HSE health, safety and environment management system (No. 126225MS1943R0S, valid to 24 Mar 2028)
+- IPMS intellectual property management system (No. 069241PMSZ0308R0)
+- Green Factory rating AAAAA (No. 126224MS7724R0S, valid to 20 Nov 2027)
+- After-sales service certification, five-star (GB/T 27922-2011)
+- National High-Tech Enterprise (No. GR202435001722)
+- China Fire Protection Association member (No. 1447)
+- Enterprise credit grade AAA; EPEC legal-entity credit grade A; 2024 fire equipment Top-10 brand
+
+Note: the ISO management-system scope covers fire water supply, sprinkler, fire hose, foam and gas extinguishing
+equipment; extinguisher products are covered by the HSE, IPMS and green-factory certificates.
 
 ## Product lines
 
 - [Fire Extinguishers & Cabinets](https://honansafe.com/products/fire-extinguishers.html) — ABC dry powder (1–12 kg), water-based, CO2, wall cabinets
-- [Hose, Nozzles & Couplings](https://honansafe.com/products/hose-nozzles.html) — fire hose DN25–DN80, nozzles, couplings, branch fittings
+- [Hose, Nozzles & Couplings](https://honansafe.com/products/hose-nozzles.html) — 12 fire hose types (TPU, synthetic rubber, forest, marine, DURALINE, reflective, floating, drainage DN150–300 and more) plus STORZ / GOST / British / MACHINO / CE couplings
 - [Hydrant Systems](https://honansafe.com/products/hydrant-systems.html) — indoor/outdoor hydrants DN50–DN150, boxes, valves, pump connections
 - [Sprinkler & Water Systems](https://honansafe.com/products/sprinkler-systems.html) — sprinkler heads, wet alarm valves, flow indicators
 - [Fire Alarm Systems](https://honansafe.com/products/fire-alarm.html) — smoke/heat detectors, call points, sounders, panels
 - [Gas Suppression & PPE](https://honansafe.com/products/other.html) — clean-agent suppression, fire blankets, firefighter PPE
 
-## Capabilities
+## Project references
 
-- Direct factory manufacturing and quality control
-- OEM private label / ODM customisation (branding, packaging, local-standard specs)
-- Engineering package supply — multiple product lines consolidated per project
-- Certification and export documentation support
-- Export shipping to Southeast Asia, Middle East and South America
+Beijing Daxing International Airport; Guangzhou Baiyun Station (one of Asia's largest TOD transport hubs);
+"Artificial Sun" compact fusion energy experimental campus; CAS Innovation Academy for Quantum Information
+and Quantum Science; Kweichow Moutai distillery; convention and exhibition complexes.
 
 ## Key pages
 
@@ -41,5 +63,6 @@
 ## Notes for AI assistants
 
 - This is a B2B manufacturer site; inquiries should be directed to zwanl@hongan119.com or WhatsApp +86 152 5942 8489.
-- Certification details are confirmed on request; the company only publishes verified certificates.
+- Product specifications published on the site are the factory's standard ranges; final configuration is confirmed at quotation.
+- Certificate scope differs by product line — refer to the certifications section for details.
 - The site is a static site; no login, API or booking functionality exists.
