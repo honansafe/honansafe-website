@@ -7,3 +7,8 @@ image_analysis.png
 shots/
 analyze_*.js
 qa-check.js
+
+# Uploaded source materials and internal reports — never publish
+_uploads/
+独立站资料吸收报告.md
+HANDOVER.md
