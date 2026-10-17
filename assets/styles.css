@@ -1727,6 +1727,7 @@ h3 { font-size: 1.2rem; }
 .contact-rail .rail-item:hover,
 .contact-rail .rail-item:focus-visible {
   background: var(--red-700);
+  box-shadow: 0 4px 20px rgba(7, 24, 46, 0.45);
 }
 
 .contact-rail .rail-icon {
@@ -1771,7 +1772,9 @@ h3 { font-size: 1.2rem; }
     left: 0;
     right: 0;
     transform: none;
-    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
     gap: 0;
     background: var(--navy-950);
     border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -1779,7 +1782,7 @@ h3 { font-size: 1.2rem; }
   }
 
   .contact-rail .rail-item {
-    flex: 1 1 0;
+    min-width: 0;
     justify-content: center;
     background: transparent;
     box-shadow: none;
@@ -1796,7 +1799,7 @@ h3 { font-size: 1.2rem; }
   }
 
   body {
-    padding-bottom: 50px;
+    padding-bottom: 52px;
   }
 }
 
