@@ -1835,26 +1835,28 @@ h3 { font-size: 1.2rem; }
   z-index: 1;
 }
 
+/* a row of evenly spaced flames along the bottom edge of the opened tile */
 .contact-rail .rail-item::after {
   content: "";
   position: absolute;
-  right: 10px;
+  left: 3px;
+  right: 3px;
   bottom: 0;
-  width: 24px;
-  height: 28px;
+  height: 26px;
   transform-origin: 50% 100%;
-  background: radial-gradient(
-    ellipse at 50% 94%,
-    #fff6c2 0%,
-    #ffb03a 30%,
-    #ef4b2b 60%,
-    rgba(230, 57, 70, 0) 76%
-  );
-  border-radius: 50% 50% 44% 44% / 64% 64% 36% 36%;
-  filter: blur(1.2px);
+  filter: blur(1px);
   opacity: 0;
   pointer-events: none;
   z-index: 0;
+  background-repeat: no-repeat;
+  background-size: 17% 100%;
+  background-position: 3% 100%, 26% 100%, 49% 100%, 72% 100%, 95% 100%;
+  background-image:
+    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
+    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
+    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
+    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
+    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%);
 }
 
 .contact-rail .rail-item:hover::after,
@@ -1870,15 +1872,15 @@ h3 { font-size: 1.2rem; }
 
 @keyframes rail-flame {
   from {
-    transform: scale(0.9, 0.72) rotate(-3deg);
+    transform: scaleY(0.84) translateY(1px);
     opacity: 0.8;
   }
   50% {
-    transform: scale(1.06, 1.08) rotate(3deg);
+    transform: scaleY(1.08) translateY(0);
     opacity: 1;
   }
   to {
-    transform: scale(0.96, 0.84) rotate(-1deg);
+    transform: scaleY(0.92) translateY(1px);
     opacity: 0.88;
   }
 }
