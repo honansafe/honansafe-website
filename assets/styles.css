@@ -1695,3 +1695,107 @@ h3 { font-size: 1.2rem; }
   .product-gallery { grid-template-columns: 1fr; }
   .product-gallery img { height: 200px; }
 }
+
+/* ============================================================
+   Fixed contact rail — right-side social / contact channels
+   ============================================================ */
+
+.contact-rail {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 860;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-rail .rail-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 44px;
+  height: 44px;
+  background: var(--red-600);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(7, 24, 46, 0.28);
+  transition: background 0.2s ease;
+}
+
+.contact-rail .rail-item:hover,
+.contact-rail .rail-item:focus-visible {
+  background: var(--red-700);
+}
+
+.contact-rail .rail-icon {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+}
+
+.contact-rail .rail-icon img {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.contact-rail .rail-label {
+  max-width: 0;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: max-width 0.28s ease, opacity 0.22s ease, padding 0.28s ease;
+}
+
+.contact-rail .rail-item:hover .rail-label,
+.contact-rail .rail-item:focus-visible .rail-label {
+  max-width: 260px;
+  opacity: 1;
+  padding-left: 4px;
+  padding-right: 14px;
+}
+
+@media (max-width: 780px) {
+  .contact-rail {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+    flex-direction: row;
+    gap: 0;
+    background: var(--navy-950);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 -2px 14px rgba(7, 24, 46, 0.35);
+  }
+
+  .contact-rail .rail-item {
+    flex: 1 1 0;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+    height: 50px;
+  }
+
+  .contact-rail .rail-item:hover,
+  .contact-rail .rail-item:focus-visible {
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  .contact-rail .rail-label {
+    display: none;
+  }
+
+  body {
+    padding-bottom: 50px;
+  }
+}
