@@ -1799,3 +1799,14 @@ h3 { font-size: 1.2rem; }
     padding-bottom: 50px;
   }
 }
+
+/* pending items (icon shown, no account linked yet) + mobile sizing for the wider rail */
+.contact-rail .rail-item.is-pending { cursor: default; }
+
+.contact-rail .rail-item.is-pending:hover,
+.contact-rail .rail-item.is-pending:focus-visible { background: var(--red-600); }
+
+@media (max-width: 780px) {
+  .contact-rail .rail-icon { flex: 0 0 auto; width: auto; height: auto; }
+  .contact-rail .rail-icon img { width: 20px; height: 20px; }
+}
