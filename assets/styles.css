@@ -34,8 +34,8 @@
   --text-muted: #5b6472;
 
   /* Typography */
-  --font-head: "Archivo", "Segoe UI", sans-serif;
-  --font-body: "Archivo", "Segoe UI", sans-serif;
+  --font-head: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
   --font-mono: "IBM Plex Mono", "Consolas", monospace;
 
   /* Layout */
