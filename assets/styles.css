@@ -1755,6 +1755,8 @@ h3 { font-size: 1.2rem; }
 /* labels collapse instantly (so only the hovered item is ever open),
    but expand with a short animation */
 .contact-rail .rail-label {
+  position: relative;
+  z-index: 2; /* keep the label above the flame layer */
   max-width: 0;
   padding: 0;
   overflow: hidden;
@@ -1842,18 +1844,16 @@ h3 { font-size: 1.2rem; }
   left: 3px;
   right: 3px;
   bottom: 0;
-  height: 26px;
+  height: 22px;
   transform-origin: 50% 100%;
   filter: blur(1px);
   opacity: 0;
   pointer-events: none;
   z-index: 0;
   background-repeat: no-repeat;
-  background-size: 17% 100%;
-  background-position: 3% 100%, 26% 100%, 49% 100%, 72% 100%, 95% 100%;
+  background-size: 23% 100%;
+  background-position: 6% 100%, 50% 100%, 94% 100%;
   background-image:
-    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
-    radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
     radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
     radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%),
     radial-gradient(ellipse at 50% 100%, #fff9d8 0%, #ffbb44 38%, #ef4b2b 68%, rgba(239, 75, 43, 0) 82%);
