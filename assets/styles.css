@@ -1389,20 +1389,14 @@ h3 { font-size: 1.2rem; }
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 20px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
   font-size: 0.8rem;
   color: var(--gray-500);
+  text-align: center;
 }
-
-.footer-bottom .credit a {
-  color: var(--gray-500);
-  border-bottom: 1px dotted var(--gray-600);
-}
-
-.footer-bottom .credit a:hover { color: var(--white); }
 
 @media (max-width: 900px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
